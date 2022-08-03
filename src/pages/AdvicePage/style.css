@@ -1,0 +1,76 @@
+.page-wrapper {
+  background-color: #1f2632;
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page-block {
+  margin-top: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #323a49;
+}
+
+.page-head {
+  color: #52ffa8;
+}
+
+.content-text {
+  color: #cee3e9;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 980px;
+    margin: auto;
+  }
+  .page-head {
+    color: #52ffa8;
+  }
+
+  .content-text {
+    color: #cee3e9;
+    font-size: 28px;
+    font-weight: 800;
+  }
+}
+
+/*
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%)
+
+## Typography
+
+### Body Copy
+
+- Font size (quote): 28px
+
+### Font
+
+- Weights: 800
+
+*/
