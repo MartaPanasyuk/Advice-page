@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Advice-page/static/css/main.6dbfbc4d.css",
+    "main.js": "/Advice-page/static/js/main.7530e366.js",
+    "static/js/787.c0e236f3.chunk.js": "/Advice-page/static/js/787.c0e236f3.chunk.js",
+    "index.html": "/Advice-page/index.html",
+    "main.6dbfbc4d.css.map": "/Advice-page/static/css/main.6dbfbc4d.css.map",
+    "main.7530e366.js.map": "/Advice-page/static/js/main.7530e366.js.map",
+    "787.c0e236f3.chunk.js.map": "/Advice-page/static/js/787.c0e236f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dbfbc4d.css",
+    "static/js/main.7530e366.js"
+  ]
+}
