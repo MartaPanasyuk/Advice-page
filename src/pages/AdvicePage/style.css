@@ -10,24 +10,49 @@
 }
 
 .page-block {
-  margin-top: 50%;
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: #323a49;
+  border-radius: 25px;
+  margin: 40% 10%;
+  padding: 80px 15px;
 }
 
 .page-head {
   color: #52ffa8;
+  font-size: 12px;
+  font-weight: normal;
 }
 
 .content-text {
   color: #cee3e9;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 800;
 }
 
-@media (min-width: 1200px) {
+.btn {
+  background: none;
+  color: #52ffa8;
+  border: none;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.btn:hover {
+  -webkit-filter: brightness(150%);
+  filter: brightness(150%);
+}
+
+.hr {
+  width: 100px;
+}
+
+@media (min-width: 1000px) {
+  .page-wrapper {
+    min-height: 100vh;
+  }
+
   .container {
     max-width: 980px;
     margin: auto;
@@ -41,36 +66,16 @@
     font-size: 28px;
     font-weight: 800;
   }
+
+  .page-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #323a49;
+    border-radius: 25px;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 80px 15px;
+  }
 }
-
-/*
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Light Cyan: hsl(193, 38%, 86%)
-- Neon Green: hsl(150, 100%, 66%)
-
-### Neutral
-
-- Grayish Blue: hsl(217, 19%, 38%)
-- Dark Grayish Blue: hsl(217, 19%, 24%)
-- Dark Blue: hsl(218, 23%, 16%)
-
-## Typography
-
-### Body Copy
-
-- Font size (quote): 28px
-
-### Font
-
-- Weights: 800
-
-*/

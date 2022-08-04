@@ -49,13 +49,13 @@ export default function AdvicePage() {
             <p className="page-head">ADVICE # {advice.id}</p>
           </div>
           <div className="page-content">
-            <h2 className="content-text">{advice.advice}</h2>
+            <h2 className="content-text">"{advice.advice}"</h2>
           </div>
-        </div>
-        <div className="btn-container">
-          <button onClick={() => handleClick()} className="btn">
-            <FaDice />
-          </button>
+          <div className="btn-container">
+            <button onClick={() => handleClick()} className="btn">
+              <FaDice />
+            </button>
+          </div>
         </div>
       </div>
     </div>
